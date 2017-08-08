@@ -66,6 +66,8 @@
 <backend_names>
 	<device name="SND_DEVICE_OUT_HEADPHONES" backend="headphones"/>
 	<device name="SND_DEVICE_OUT_LINE" backend="headphones"/>
+	<device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO" backend="speaker-and-bt-sco"/>
+	<device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO_WB" backend="speaker-and-bt-sco-wb"/>
 </backend_names>
 
 <config_params>
