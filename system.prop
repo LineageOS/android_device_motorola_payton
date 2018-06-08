@@ -1,0 +1,20 @@
+#
+# system.prop for payton
+#
+
+# Sensors
+ro.vendor.sensors.dev_ori=true
+ro.vendor.sensors.sta_detect=true
+ro.vendor.sensors.mot_detect=true
+ro.vendor.sensors.facing=false
+ro.vendor.sensors.cmc=false
+ro.vendor.sdk.sensors.gestures=false
+
+ro.hardware.sensors=payton
+ro.vendor.sensors.maghalcal=false
+ro.vendor.sensors.pmd=false
+ro.vendor.sensors.amd=false
+ro.vendor.sensors.rmd=false
+ro.vendor.sensors.facing=false
+ro.vendor.sensors.scrn_ortn=false
+ro.vendor.sensors.pedometer=false
