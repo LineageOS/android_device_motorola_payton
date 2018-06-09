@@ -57,6 +57,13 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libgptutils \
     libz
 
+# TWRP
+ifeq ($(WITH_TWRP),true)
+    $(call inherit-product, device/motorola/payton/twrp/twrp.mk)
+else
+    TARGET_RECOVERY_FSTAB := device/motorola/payton/rootdir/etc/fstab.qcom
+endif
+
 # Device identifiers
 PRODUCT_DEVICE := payton
 PRODUCT_NAME := lineage_payton

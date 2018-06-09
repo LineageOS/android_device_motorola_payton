@@ -35,6 +35,10 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 0x102000000
 # SELinux
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Treble
+PRODUCT_SHIPPING_API_LEVEL := 25
+PRODUCT_COMPATIBILITY_MATRIX_LEVEL_OVERRIDE := 27
+
 # inherit from the proprietary version
 -include vendor/motorola/payton/BoardConfigVendor.mk
 

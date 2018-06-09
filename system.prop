@@ -2,6 +2,15 @@
 # system.prop for payton
 #
 
+# Audio ACDB
+persist.audio.calfile0=/etc/acdbdata/Bluetooth_cal.acdb
+persist.audio.calfile1=/etc/acdbdata/General_cal.acdb
+persist.audio.calfile2=/etc/acdbdata/Global_cal.acdb
+persist.audio.calfile3=/etc/acdbdata/Handset_cal.acdb
+persist.audio.calfile4=/etc/acdbdata/Hdmi_cal.acdb
+persist.audio.calfile5=/etc/acdbdata/Headset_cal.acdb
+persist.audio.calfile6=/etc/acdbdata/Speaker_cal.acdb
+
 # Sensors
 ro.vendor.sensors.dev_ori=true
 ro.vendor.sensors.sta_detect=true
