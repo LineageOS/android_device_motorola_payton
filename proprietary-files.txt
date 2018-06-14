@@ -437,3 +437,6 @@ vendor/firmware/cpp_firmware_v1_5_1.fw
 vendor/firmware/cpp_firmware_v1_5_2.fw
 vendor/firmware/cpp_firmware_v1_6_0.fw
 vendor/firmware/cpp_firmware_v1_8_0.fw
+
+# Thermal
+etc/thermal-engine-payton.conf:vendor/etc/thermal-engine.conf
