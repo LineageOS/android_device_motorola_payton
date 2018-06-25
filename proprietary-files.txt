@@ -12,10 +12,10 @@ vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_520.xml
 
 # Camera
-etc/zaf/zaf_mot_s5k2l7sa.json
-etc/zaf/zaf_imx386.json
-etc/zaf/zaf_imx386_mono.json
-lib/hw/libSonyDefocus.so
+etc/zaf/zaf_mot_s5k2l7sa.json:vendor/etc/zaf/zaf_mot_s5k2l7sa.json
+etc/zaf/zaf_imx386.json:vendor/etc/zaf/zaf_imx386.json
+etc/zaf/zaf_imx386_mono.json:vendor/etc/zaf/zaf_imx386_mono.json
+lib/hw/libSonyDefocus.so:vendor/lib/hw/libSonyDefocus.so
 vendor/lib/hw/camera.sdm660.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libactuator_mot_ak7371.so
