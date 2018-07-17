@@ -28,3 +28,17 @@
 on late-fs
     symlink /dev/block/bootdevice/by-name/oem_b /dev/block/bootdevice/by-name/vendor_b
     symlink /dev/block/bootdevice/by-name/oem_a /dev/block/bootdevice/by-name/vendor_a
+
+on init
+    setprop ro.hw.dualsim ${ro.boot.dualsim}
+    setprop ro.hw.device ${ro.boot.device}
+    setprop ro.hw.radio ${ro.boot.radio}
+    setprop ro.hw.fps true
+    setprop ro.hw.imager 12MP
+    setprop ro.product.manufacturer Motorola
+
+on property:ro.hw.dualsim=true
+    setprop persist.radio.multisim.config dsds
+
+on property:ro.hw.dualsim=false
+    setprop persist.radio.multisim.config ""
