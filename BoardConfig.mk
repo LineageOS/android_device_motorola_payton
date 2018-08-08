@@ -42,7 +42,6 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Treble
 PRODUCT_SHIPPING_API_LEVEL := 25
-BOARD_VNDK_RUNTIME_DISABLE := true
 
 # Wifi
 WIFI_DRIVER_OPERSTATE_PATH := "/sys/class/net/wlan0/operstate"
