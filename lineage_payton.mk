@@ -55,6 +55,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.sdm660 \
+    libcutils \
     libgptutils \
     libz
 
