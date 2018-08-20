@@ -57,7 +57,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libcutils \
     bootctrl.sdm660 \
-    libgptutils \
+    libgptutils.motorola_sdm660.recovery \
     libz
 
 # TWRP
