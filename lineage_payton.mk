@@ -52,13 +52,9 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
-    bootctrl.sdm660
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    libcutils \
+    android.hardware.boot@1.0-impl.recovery \
     bootctrl.sdm660 \
-    libgptutils.motorola_sdm660.recovery \
-    libz
+    bootctrl.sdm660.recovery
 
 # TWRP
 ifeq ($(WITH_TWRP),true)
