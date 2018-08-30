@@ -62,7 +62,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 ifeq ($(WITH_TWRP),true)
     $(call inherit-product, device/motorola/payton/twrp/twrp.mk)
 else
-    TARGET_RECOVERY_FSTAB := device/motorola/payton/rootdir/etc/fstab.qcom
+    TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
 endif
 
 # Device identifiers
