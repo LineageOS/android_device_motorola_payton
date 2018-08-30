@@ -1,6 +1,0 @@
-/dev/block/platform/soc/c0c4000.sdhci/mmcblk0            u:object_r:gpt_block_device:s0
-/dev/block/platform/soc/c0c4000.sdhci/mmcblk0p2[1234]    u:object_r:modem_efs_partition_device:s0
-/dev/block/platform/soc/c0c4000.sdhci/mmcblk0p3[67]      u:object_r:modem_efs_partition_device:s0
-/dev/block/platform/soc/c0c4000.sdhci/mmcblk0p[54][67]   u:object_r:ab_block_device:s0
-/dev/block/platform/soc/c0c4000.sdhci/mmcblk0p6[34]      u:object_r:system_block_device:s0
-/dev/block/platform/soc/c0c4000.sdhci/mmcblk0p[12]       u:object_r:xbl_block_device:s0
