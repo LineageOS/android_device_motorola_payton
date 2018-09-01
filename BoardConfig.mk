@@ -20,7 +20,7 @@
 DEVICE_PATH := device/motorola/payton
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE := payton,MotoX4,motox4
+TARGET_OTA_ASSERT_DEVICE := payton
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
