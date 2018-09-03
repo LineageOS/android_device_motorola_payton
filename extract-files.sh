@@ -33,10 +33,6 @@ export DEVICE_BRINGUP_YEAR=2018
 
 BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
 
-# Load libSonyDefocus from vendor
-CAMERA_IMX386="$BLOB_ROOT"/vendor/lib/libmmcamera_imx386.so
-sed -i "s|/system/lib/hw/|/vendor/lib/hw/|g" "$CAMERA_IMX386"
-
 # Load ZAF configs from vendor
 ZAF_CORE="$BLOB_ROOT"/vendor/lib/libzaf_core.so
 sed -i "s|/system/etc/zaf|/vendor/etc/zaf|g" "$ZAF_CORE"

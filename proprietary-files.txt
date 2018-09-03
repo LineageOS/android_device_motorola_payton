@@ -8,14 +8,14 @@ etc/acdbdata/Headset_cal.acdb:vendor/etc/acdbdata/Headset_cal.acdb
 etc/acdbdata/Speaker_cal.acdb:vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Display calib
-vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml
-vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_520.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml|2a5dbba5b4905cad2d46d97eefd1e0316a0b4a42
+vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_520.xml|9c8307370ee7daea14871ace413c55c1e012a842
 
 # Camera
 etc/zaf/zaf_mot_s5k2l7sa.json:vendor/etc/zaf/zaf_mot_s5k2l7sa.json
 etc/zaf/zaf_imx386.json:vendor/etc/zaf/zaf_imx386.json
 etc/zaf/zaf_imx386_mono.json:vendor/etc/zaf/zaf_imx386_mono.json
-lib/hw/libSonyDefocus.so:vendor/lib/hw/libSonyDefocus.so
+vendor/lib/hw/libSonyDefocus.so
 vendor/lib/hw/camera.sdm660.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libactuator_mot_ak7371.so
@@ -38,15 +38,11 @@ vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libvideobokeh.so
-lib/libts_detected_face_jni.so
 lib/libts_face_beautify_hal.so
-lib/libts_face_beautify_jni.so
 vendor/lib/libzaf_algs.so
 vendor/lib/libzaf_core.so
 vendor/lib64/libvideobokeh.so
-lib64/libts_detected_face_jni.so
 lib64/libts_face_beautify_hal.so
-lib64/libts_face_beautify_jni.so
 vendor/etc/camera/camera_config.xml
 vendor/etc/camera/mot_s5k2l7sa_chromatix.xml
 vendor/etc/camera/mot_s5k3p8sp_chromatix.xml
@@ -393,8 +389,6 @@ vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 # Camera - Postprocessing
 vendor/lib/libchromaflash.so
 vendor/lib/libdualcameraddm.so
-lib/libjni_makeupV2.so:vendor/lib/libjni_makeupV2.so
-lib64/libjni_makeupV2.so:vendor/lib64/libjni_makeupV2.so
 vendor/lib/liboptizoom.so
 vendor/lib/libseemore.so
 vendor/lib/libubifocus.so
