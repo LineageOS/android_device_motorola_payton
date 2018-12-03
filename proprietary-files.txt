@@ -38,11 +38,9 @@ vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libvideobokeh.so
-lib/libts_face_beautify_hal.so
 vendor/lib/libzaf_algs.so
 vendor/lib/libzaf_core.so
 vendor/lib64/libvideobokeh.so
-lib64/libts_face_beautify_hal.so
 vendor/etc/camera/camera_config.xml
 vendor/etc/camera/mot_s5k2l7sa_chromatix.xml
 vendor/etc/camera/mot_s5k3p8sp_chromatix.xml
@@ -371,7 +369,6 @@ vendor/lib/libmmcamera_s5k4h7a8s_eeprom.so
 vendor/lib/libmmcamera_s5k4h8.so
 vendor/lib/libmmcamera_s5k4h8_aux.so
 vendor/lib/libmmcamera_s5k4h8_eeprom.so
-vendor/lib/libmmcamera_sat_test_lib.so
 vendor/lib/libmmcamera_stillmore_lib.so
 vendor/lib/libmmcamera_sw2d_lib.so
 vendor/lib/libmmcamera_thread_services.so
@@ -392,16 +389,8 @@ vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
 # Camera - Postprocessing
-vendor/lib/libchromaflash.so
 vendor/lib/libdualcameraddm.so
-vendor/lib/liboptizoom.so
-vendor/lib/libseemore.so
-vendor/lib/libubifocus.so
-vendor/lib64/libchromaflash.so
 vendor/lib64/libdualcameraddm.so
-vendor/lib64/liboptizoom.so
-vendor/lib64/libseemore.so
-vendor/lib64/libubifocus.so
 vendor/lib/libS5k2l7Pdaf.so
 vendor/lib/libS5k2l7PdafCamif.so
 vendor/lib/libmm-qcamera.so
