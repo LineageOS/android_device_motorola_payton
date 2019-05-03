@@ -524,6 +524,23 @@
 		<ctl name="SLIMBUS_0_RX Port Mixer PRI_MI2S_TX" value="1" />
 		<ctl name="SLIMBUS_DL_HL Switch" value="1" />
 	</path>
+    
+    <path name="play-fm speaker">
+        <ctl name="PRI MI2S LOOPBACK Volume" value="1" />
+        <ctl name="SLIMBUS_0_RX Port Mixer PRI_MI2S_TX" value="1" />
+        <ctl name="SLIMBUS_DL_HL Switch" value="1" />
+    </path>
+    
+    <path name="play-fm headphones">
+        <ctl name="PRI MI2S LOOPBACK Volume" value="1" />
+        <ctl name="SLIMBUS_0_RX Port Mixer PRI_MI2S_TX" value="1" />
+        <ctl name="SLIMBUS_DL_HL Switch" value="1" />
+    </path>
+    
+    <path name="play-fm bt-a2dp">
+        <ctl name="PRI MI2S LOOPBACK Volume" value="1" />
+        <path name="bt-a2dp" />
+    </path>
 
 	<path name="compress-voip-call">
 		<ctl name="SLIM_0_RX_Voice Mixer Voip" value="1" />
