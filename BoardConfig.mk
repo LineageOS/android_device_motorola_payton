@@ -25,6 +25,10 @@ TARGET_OTA_ASSERT_DEVICE := payton
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
+# FM
+BOARD_HAVE_QCOM_FM := true
+BOARD_HAS_QCA_FM_SOC := "cherokee"
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_payton_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8998
