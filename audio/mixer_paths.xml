@@ -791,7 +791,7 @@
 		<ctl name="PDM Mux" value="Off" />
 		<ctl name="SLIM_0_RX Channels" value="One" />
 		<ctl name="AIF1TX1 Input 1" value="SLIMRX1" />
-		<ctl name="AIF1TX1 Input 1 Volume" value="32" />
+		<ctl name="AIF1TX1 Input 1 Volume" value="34" />
 		<ctl name="SLIM_1_TX Channels" value="Two" />
 		<ctl name="SLIMTX5 Input 1" value="AIF1RX1" />
 		<ctl name="SLIMTX6 Input 1" value="AIF1RX2" />
@@ -813,7 +813,7 @@
 	<path name="handset">
 		<ctl name="PDM Mux" value="Off" />
 		<ctl name="AIF1TX1 Input 2" value="SLIMRX1" />
-		<ctl name="AIF1TX1 Input 2 Volume" value="32" />
+		<ctl name="AIF1TX1 Input 2 Volume" value="34" />
 		<ctl name="AMP Audio Gain" value="4" />
 		<ctl name="OSPL Rx" value="Disable" />
 	</path>
