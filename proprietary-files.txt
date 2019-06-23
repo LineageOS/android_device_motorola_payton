@@ -441,6 +441,3 @@ vendor/lib64/hw/keystore.sdm660.so
 
 # NFC
 vendor/lib64/libpn553_fw.so
-
-# Thermal
-etc/thermal-engine-payton.conf:vendor/etc/thermal-engine.conf
