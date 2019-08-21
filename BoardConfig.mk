@@ -28,6 +28,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 # FM
 BOARD_HAVE_QCOM_FM := true
 BOARD_HAS_QCA_FM_SOC := "cherokee"
+BOARD_USE_O_FM_CONFIG := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_payton_defconfig
