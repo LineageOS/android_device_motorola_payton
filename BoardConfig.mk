@@ -46,8 +46,5 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 603979776
 # Power
 TARGET_HAS_NO_WLAN_STATS := true
 
-# Treble
-PRODUCT_SHIPPING_API_LEVEL := 25
-
 # inherit from the proprietary version
 -include vendor/motorola/payton/BoardConfigVendor.mk
