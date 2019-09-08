@@ -40,3 +40,7 @@ sed -i "s|/system/etc/zaf|/vendor/etc/zaf|g" "$ZAF_CORE"
 # Add uhid group for fingerprint service
 FP_SERVICE_RC="$BLOB_ROOT"/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 sed -i "s/input/uhid input/" "$FP_SERVICE_RC"
+
+# Load libmot_gpu_mapper shim
+MOT_GPU_MAPPER="$BLOB_ROOT"/vendor/lib/libmot_gpu_mapper.so
+patchelf --add-needed libgpu_mapper_shim.so "$MOT_GPU_MAPPER"
