@@ -434,6 +434,9 @@ vendor/lib64/com.fingerprints.extension@1.0_vendor.so
 vendor/lib/hw/gatekeeper.sdm660.so
 vendor/lib64/hw/gatekeeper.sdm660.so
 
+# IMS
+-priv-app/ims/ims.apk|d6e133dcd005202792e673f3439134a4f8b3b8ed
+
 # Keystore
 vendor/lib/hw/keystore.sdm660.so
 vendor/lib64/hw/keystore.sdm660.so
