@@ -432,7 +432,7 @@ vendor/lib/hw/gatekeeper.sdm660.so
 vendor/lib64/hw/gatekeeper.sdm660.so
 
 # IMS
--priv-app/ims/ims.apk|d6e133dcd005202792e673f3439134a4f8b3b8ed
+-product/priv-app/ims/ims.apk|75854565f032706bd2c91bef682f1ab71a1db870
 
 # Keystore
 vendor/lib/hw/keystore.sdm660.so
