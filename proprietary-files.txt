@@ -413,7 +413,6 @@ vendor/bin/qseecomd
 vendor/lib/libcppf.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libQSEEComAPI.so
-vendor/lib/libsdedrm.so|14659302ccd3df6929debd931a1a7258739ca144
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libGPreqcancel_svc.so
@@ -421,7 +420,6 @@ vendor/lib64/libGPreqcancel.so
 vendor/lib64/libqisl.so
 vendor/lib64/libQSEEComAPI.so
 vendor/lib64/librpmb.so
-vendor/lib64/libsdedrm.so|dfc54b03ea50147b7143966a5c1a4df2710d2205
 vendor/lib64/libSecureUILib.so
 vendor/lib64/libssd.so
 
