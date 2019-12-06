@@ -901,6 +901,10 @@
 		<path name="voice-headphones" />
 	</path>
 
+	<path name="voice-headset">
+		<path name="voice-headphones" />
+	</path>
+
 	<path name="voice-headset-mic">
 		<path name="headset-mic" />
 	</path>
