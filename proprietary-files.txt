@@ -431,6 +431,9 @@ vendor/lib64/com.fingerprints.extension@1.0_vendor.so
 vendor/lib/hw/gatekeeper.sdm660.so
 vendor/lib64/hw/gatekeeper.sdm660.so
 
+# Radio
+product/framework/qti-telephony-common.jar|74adbf98e89531ac385ab5c4cea3c2549a0d24b0
+
 # IMS
 -product/priv-app/ims/ims.apk|e33e718bb02facea862ab56384c4e300a1826dbf
 
