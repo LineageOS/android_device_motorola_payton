@@ -52,5 +52,9 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 603979776
 # Power
 TARGET_HAS_NO_WLAN_STATS := true
 
+# Properties
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # inherit from the proprietary version
 include vendor/motorola/payton/BoardConfigVendor.mk

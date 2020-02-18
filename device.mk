@@ -118,6 +118,3 @@ $(call inherit-product, build/target/product/verity.mk)
 
 # Inherit from motorola sdm660-common
 $(call inherit-product, device/motorola/sdm660-common/common.mk)
-
-# Properties
--include $(LOCAL_PATH)/vendor_prop.mk
