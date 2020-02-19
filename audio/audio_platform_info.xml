@@ -30,6 +30,7 @@
 	<device name="SND_DEVICE_IN_SPEAKER_MIC_NS" acdb_id="11" />
 	<device name="SND_DEVICE_IN_UNPROCESSED_MIC" acdb_id="11" />
 	<device name="SND_DEVICE_IN_VOICE_REC_DMIC_FLUENCE" acdb_id="35" />
+	<device name="SND_DEVICE_IN_CAMCORDER_MIC" acdb_id="34"/>
 	<device name="SND_DEVICE_IN_VOICE_DMIC_TMUS" acdb_id="41" />
 	<device name="SND_DEVICE_IN_UNPROCESSED_STEREO_MIC" acdb_id="43" />
 	<device name="SND_DEVICE_IN_HEADSET_MIC_AEC" acdb_id="47" />
@@ -73,5 +74,9 @@
 <config_params>
 	<param key="input_mic_max_count" value="3"/>
 </config_params>
+
+<device_names>
+	<device name="SND_DEVICE_IN_CAMCORDER_MIC" alias="handset-stereo-dmic-ef"/>
+</device_names>
 
 </audio_platform_info>
