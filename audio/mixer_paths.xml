@@ -820,6 +820,7 @@
 
 	<path name="handset-mic">
 		<path name="mic1" />
+		<ctl name="IN1L Volume" value="18" />
 	</path>
 
 	<path name="headphones">
@@ -934,7 +935,7 @@
 	</path>
 
 	<path name="camcorder-mic">
-		<path name="speaker-mic" />
+		<path name="handset-mic" />
 	</path>
 
 	<path name="bt-sco-headset">
@@ -977,6 +978,8 @@
 		<ctl name="SLIM_0_TX Channels" value="Two" />
 		<ctl name="SLIMTX1 Input 1" value="ISRC2DEC1" />
 		<ctl name="SLIMTX2 Input 1" value="ISRC2DEC4" />
+		<ctl name="IN1L Volume" value="18" />
+		<ctl name="IN2L Volume" value="18" />
 	</path>
 
 	<path name="dmic-endfire">
@@ -1000,11 +1003,15 @@
 	</path>
 
 	<path name="voice-rec-dmic-ef">
-		<path name="voice-dmic-ef" />
+		<path name="dmic-endfire" />
 	</path>
 
 	<path name="voice-rec-dmic-ef-fluence">
-		<path name="voice-dmic-ef" />
+		<path name="dmic-endfire" />
+	</path>
+
+	<path name="handset-stereo-dmic-ef">
+		<path name="speaker-dmic-endfire" />
 	</path>
 
 	<path name="camcorder-mic-bf">
