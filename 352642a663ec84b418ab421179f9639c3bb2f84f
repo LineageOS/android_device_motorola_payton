@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ea77112c_47295806",
+        "filename": "audio/audio_policy_configuration.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-08-25T06:28:56Z",
+      "side": 1,
+      "message": "AUDIO_FORMAT_PCM_8_24_BIT is removed",
+      "range": {
+        "startLine": 76,
+        "startChar": 62,
+        "endLine": 76,
+        "endChar": 64
+      },
+      "revId": "352642a663ec84b418ab421179f9639c3bb2f84f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0e90275a_6ce5f204",
+        "filename": "audio/audio_policy_configuration.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-08-25T06:28:56Z",
+      "side": 1,
+      "message": "\"FM tuner\" is missing in routes",
+      "range": {
+        "startLine": 153,
+        "startChar": 99,
+        "endLine": 153,
+        "endChar": 100
+      },
+      "revId": "352642a663ec84b418ab421179f9639c3bb2f84f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
