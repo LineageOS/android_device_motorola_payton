@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FM2 \
     libqcomfm_jni \
-    init.qti.fm.sh \
     qcom.fmradio
 
 PRODUCT_BOOT_JARS += qcom.fmradio
@@ -82,8 +81,6 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     SecureElement \
     NfcNci \
-    nqnfcee_access.xml \
-    nqnfcse_access.xml \
     Tag
 
 PRODUCT_COPY_FILES += \
