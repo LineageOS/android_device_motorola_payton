@@ -52,6 +52,24 @@
       "revId": "2118947eaebb174bb8f48b491debdd7373cf647c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "13cd5b09_00657524",
+        "filename": "nfc/libnfc-nci.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2020-12-01T23:32:52Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "f2b18ddb_d12ad1de",
+      "revId": "2118947eaebb174bb8f48b491debdd7373cf647c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
