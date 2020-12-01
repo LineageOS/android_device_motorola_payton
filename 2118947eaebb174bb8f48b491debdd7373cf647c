@@ -16,6 +16,24 @@
       "revId": "2118947eaebb174bb8f48b491debdd7373cf647c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1d0065ca_980bdc7b",
+        "filename": "nfc/libnfc-nci.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2020-12-01T11:46:16Z",
+      "side": 0,
+      "message": "We can switch it to continue using /data/vendor/nfc if you want. Tbh I have no idea why half the NFC HAL defaults to /data/nfc and the NXP half defaults to /data/vendor/nfc lol...",
+      "parentUuid": "9067e0f4_9ac7af5f",
+      "revId": "2118947eaebb174bb8f48b491debdd7373cf647c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
