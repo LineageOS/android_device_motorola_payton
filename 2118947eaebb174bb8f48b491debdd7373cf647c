@@ -34,6 +34,24 @@
       "revId": "2118947eaebb174bb8f48b491debdd7373cf647c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f2b18ddb_d12ad1de",
+        "filename": "nfc/libnfc-nci.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-12-01T13:19:44Z",
+      "side": 0,
+      "message": "lol, i like to keep it as it was to vendor.",
+      "parentUuid": "1d0065ca_980bdc7b",
+      "revId": "2118947eaebb174bb8f48b491debdd7373cf647c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
