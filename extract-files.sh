@@ -16,6 +16,10 @@ function blob_fixup() {
         vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc)
             sed -i -e 's|system input|system uhid input|g' "${2}"
             ;;
+        # Fix camera recording
+        vendor/lib/libmmcamera2_pproc_modules.so)
+            sed -i -e 's|ro.product.manufacturer|ro.product.nopefacturer|g' "${2}"
+            ;;
     esac
 }
 
