@@ -267,7 +267,9 @@ system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED|93581be59e0f35a5ed1ee
 system/etc/permissions/com.motorola.motosignature.xml|657458b1f279e2158db87925dcd518d48f9afcf7
 system/etc/permissions/privapp-permissions-com.motorola.camera2.xml|8c850d543cb104c3cc298f461f9947af3ef2b2d3
 system/framework/com.motorola.motosignature.jar|1b322b6a7bd89b9bf8cb9f4394dc8e296485205a
-system/priv-app/MotCamera2/MotCamera2.apk|5bc191b80726f0cb32b4e54cd3cb05cd3224ce7f
+
+# Camera - MotCamera2 - from EOL version
+system/priv-app/MotCamera2/MotCamera2.apk|260df16116b0e9f5144114454533bcda35f669e7
 
 # Camera - Firmware
 vendor/firmware/cpp_firmware_v1_10_0.fw
