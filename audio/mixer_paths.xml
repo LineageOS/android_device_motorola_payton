@@ -988,6 +988,13 @@
 		<path name="voice-dmic-ef" />
 	</path>
 
+	<path name="handset-dmic-endfire">
+		<path name="AOV" />
+		<ctl name="SLIM_0_TX Channels" value="Two" />
+		<ctl name="SLIMTX1 Input 1" value="ISRC2DEC1" />
+		<ctl name="SLIMTX2 Input 1" value="ISRC2DEC4" />
+	</path>
+
 	<path name="speaker-dmic-endfire">
 		<path name="AOV" />
 		<ctl name="SLIM_0_TX Channels" value="Two" />
