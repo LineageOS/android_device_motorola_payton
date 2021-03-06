@@ -33,6 +33,7 @@
 	<device name="SND_DEVICE_IN_VOICE_DMIC_TMUS" acdb_id="41" />
 	<device name="SND_DEVICE_IN_UNPROCESSED_STEREO_MIC" acdb_id="43" />
 	<device name="SND_DEVICE_IN_HEADSET_MIC_AEC" acdb_id="47" />
+	<device name="SND_DEVICE_IN_HEADSET_MIC_FLUENCE" acdb_id="47"/>
 	<device name="SND_DEVICE_IN_VOICE_REC_MIC_AEC" acdb_id="62" />
 	<device name="SND_DEVICE_IN_VOICE_REC_MIC_NS" acdb_id="62" />
 	<device name="SND_DEVICE_IN_HANDSET_DMIC_AEC" acdb_id="111" />
