@@ -13,6 +13,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.audio.sdk.fluencetype=fluence \
+    ro.qc.sdk.audio.fluencetype=fluence \
     persist.vendor.audio.fluence.speaker=true \
     persist.vendor.audio.fluence.voicecall=true
 
