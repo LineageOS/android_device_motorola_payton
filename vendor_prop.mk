@@ -14,7 +14,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.fluence.speaker=true \
-    persist.vendor.audio.fluence.voicecall=true
+    persist.vendor.audio.fluence.voicecall=true \
+    ro.qc.sdk.audio.fluencetype=fluence \
+    ro.vendor.audio.sdk.fluencetype=fluence
 
 # FM
 PRODUCT_PROPERTY_OVERRIDES += \
