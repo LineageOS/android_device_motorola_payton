@@ -10,11 +10,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.calfile3=/vendor/etc/acdbdata/Handset_cal.acdb \
     persist.vendor.audio.calfile4=/vendor/etc/acdbdata/Hdmi_cal.acdb \
     persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Headset_cal.acdb \
-    persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb
-
-PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb \
+    persist.vendor.audio.dualmic.config=endfire \
+    persist.vendor.audio.fluence.audiorec=false \
     persist.vendor.audio.fluence.speaker=true \
-    persist.vendor.audio.fluence.voicecall=true
+    persist.vendor.audio.fluence.voicecall=true \
+    persist.vendor.audio.fluence.voicecomm=true \
+    persist.vendor.audio.fluence.voicerec=false \
+    ro.qc.sdk.audio.fluencetype=fluence \
+    ro.vendor.audio.sdk.fluencetype=fluence
 
 # FM
 PRODUCT_PROPERTY_OVERRIDES += \
