@@ -1,60 +1,56 @@
-# payton device proprietary files - from XT1900-1_PAYTON_FI_9.0_PPWS29.69-39-6-12, unless pinned
+# payton device proprietary files - from XT1900-1_PAYTON_FI_9.0_PPWS29.69-39-6-13, unless pinned
 
 # Audio ACDB
-etc/acdbdata/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb
-etc/acdbdata/General_cal.acdb:vendor/etc/acdbdata/General_cal.acdb
-etc/acdbdata/Global_cal.acdb:vendor/etc/acdbdata/Global_cal.acdb
-etc/acdbdata/Handset_cal.acdb:vendor/etc/acdbdata/Handset_cal.acdb
-etc/acdbdata/Hdmi_cal.acdb:vendor/etc/acdbdata/Hdmi_cal.acdb
-etc/acdbdata/Headset_cal.acdb:vendor/etc/acdbdata/Headset_cal.acdb
-etc/acdbdata/Speaker_cal.acdb:vendor/etc/acdbdata/Speaker_cal.acdb
-
-# Display calib
-vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml
-vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_520.xml
+system/etc/acdbdata/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb
+system/etc/acdbdata/General_cal.acdb:vendor/etc/acdbdata/General_cal.acdb
+system/etc/acdbdata/Global_cal.acdb:vendor/etc/acdbdata/Global_cal.acdb
+system/etc/acdbdata/Handset_cal.acdb:vendor/etc/acdbdata/Handset_cal.acdb
+system/etc/acdbdata/Hdmi_cal.acdb:vendor/etc/acdbdata/Hdmi_cal.acdb
+system/etc/acdbdata/Headset_cal.acdb:vendor/etc/acdbdata/Headset_cal.acdb
+system/etc/acdbdata/Speaker_cal.acdb:vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Camera
-etc/zaf/zaf_mot_s5k2l7sa.json:vendor/etc/zaf/zaf_mot_s5k2l7sa.json
-etc/zaf/zaf_imx386.json:vendor/etc/zaf/zaf_imx386.json
-etc/zaf/zaf_imx386_mono.json:vendor/etc/zaf/zaf_imx386_mono.json
-vendor/lib/hw/libSonyDefocus.so
-vendor/lib/hw/camera.sdm660.so
-vendor/lib/libhal_dbg.so
-vendor/lib/libactuator_mot_ak7371.so
-vendor/lib/libflash_aw3643_rear.so
-vendor/lib/libflash_aw3643_front.so
-vendor/lib/libflash_pmic.so
-vendor/lib/libgralloc1.so
-vendor/lib/libjpegdhw.so
-vendor/lib/libjpegdmahw.so
-vendor/lib/libjpegehw.so
-vendor/lib/libmmjpeg_interface.so
-vendor/lib/libmmjpeg.so
-vendor/lib/libmmlib2d_interface.so
-vendor/lib/libmmqjpeg_codec.so
-vendor/lib/libmmqjpegdma.so
-vendor/lib/libqomx_core.so
-vendor/lib/libqomx_jpegdec.so
-vendor/lib/libqomx_jpegenc_pipe.so
-vendor/lib/libqomx_jpegenc.so
-vendor/lib/libremosaic_daemon.so
-vendor/lib/libvideobokeh.so
-vendor/lib/libzaf_algs.so
-vendor/lib/libzaf_core.so
-vendor/lib64/libvideobokeh.so
+system/etc/zaf/zaf_imx386.json:vendor/etc/zaf/zaf_imx386.json
+system/etc/zaf/zaf_imx386_mono.json:vendor/etc/zaf/zaf_imx386_mono.json
+system/etc/zaf/zaf_mot_s5k2l7sa.json:vendor/etc/zaf/zaf_mot_s5k2l7sa.json
 vendor/etc/camera/camera_config.xml
 vendor/etc/camera/mot_s5k2l7sa_chromatix.xml
 vendor/etc/camera/mot_s5k3p8sp_chromatix.xml
 vendor/etc/camera/mot_s5k4h8_aux_chromatix.xml
-vendor/lib64/libcdsprpc.so
-vendor/lib/libcdsprpc.so
-vendor/lib/libdepthmapwrapper.so
-vendor/lib/libmotimager_utils.so
-vendor/lib/libmot_lux_standardization.so
+vendor/lib/hw/camera.sdm660.so
+vendor/lib/hw/libSonyDefocus.so
 vendor/lib/lib_mot_app6_metadata.so
 vendor/lib/lib_mot_led_calibration.so
-vendor/lib/libmot_afd.so
 vendor/lib/lib_motsensorlistener.so
+vendor/lib/libactuator_mot_ak7371.so
+vendor/lib/libcdsprpc.so
+vendor/lib/libdepthmapwrapper.so
+vendor/lib/libflash_aw3643_front.so
+vendor/lib/libflash_aw3643_rear.so
+vendor/lib/libflash_pmic.so
+vendor/lib/libgralloc1.so
+vendor/lib/libhal_dbg.so
+vendor/lib/libjpegdhw.so
+vendor/lib/libjpegdmahw.so
+vendor/lib/libjpegehw.so
+vendor/lib/libmmjpeg.so
+vendor/lib/libmmjpeg_interface.so
+vendor/lib/libmmlib2d_interface.so
+vendor/lib/libmmqjpeg_codec.so
+vendor/lib/libmmqjpegdma.so
+vendor/lib/libmot_afd.so
+vendor/lib/libmot_lux_standardization.so
+vendor/lib/libmotimager_utils.so
+vendor/lib/libqomx_core.so
+vendor/lib/libqomx_jpegdec.so
+vendor/lib/libqomx_jpegenc.so
+vendor/lib/libqomx_jpegenc_pipe.so
+vendor/lib/libremosaic_daemon.so
+vendor/lib/libvideobokeh.so
+vendor/lib/libzaf_algs.so
+vendor/lib/libzaf_core.so
+vendor/lib64/libcdsprpc.so
+vendor/lib64/libvideobokeh.so
 
 # Camera - Chromatix
 vendor/lib/libchromatix_imx386_4k_video_3a.so
@@ -391,10 +387,10 @@ vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
 # Camera - Postprocessing
 vendor/lib/libdualcameraddm.so
-vendor/lib64/libdualcameraddm.so
+vendor/lib/libmm-qcamera.so
 vendor/lib/libS5k2l7Pdaf.so
 vendor/lib/libS5k2l7PdafCamif.so
-vendor/lib/libmm-qcamera.so
+vendor/lib64/libdualcameraddm.so
 
 # Camera - Firmware
 vendor/firmware/cpp_firmware_v1_10_0.fw
@@ -409,6 +405,10 @@ vendor/firmware/cpp_firmware_v1_5_2.fw
 vendor/firmware/cpp_firmware_v1_6_0.fw
 vendor/firmware/cpp_firmware_v1_8_0.fw
 
+# Display calib
+vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_520.xml
+
 # DRM
 vendor/bin/qseecomd
 vendor/lib/libcppf.so
@@ -416,8 +416,8 @@ vendor/lib/liboemcrypto.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
-vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libGPreqcancel.so
+vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libqisl.so
 vendor/lib64/libQSEEComAPI.so
 vendor/lib64/librpmb.so
