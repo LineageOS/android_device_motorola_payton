@@ -16,10 +16,10 @@
 	<ctl name="Voip Rx Gain" id="1" value="20" />
 	<ctl name="IN1L Mux" value="A" />
 	<ctl name="IN1R Mux" value="B" />
-	<ctl name="IN1L Volume" value="18" />
-	<ctl name="IN1R Volume" value="18" />
-	<ctl name="IN2L Volume" value="18" />
-	<ctl name="IN2R Volume" value="18" />
+	<ctl name="IN1L Volume" value="20" />
+	<ctl name="IN1R Volume" value="20" />
+	<ctl name="IN2L Volume" value="20" />
+	<ctl name="IN2R Volume" value="20" />
 	<ctl name="IN1L Digital Volume" value="128" />
 	<ctl name="IN1R Digital Volume" value="128" />
 	<ctl name="IN2L Digital Volume" value="128" />
@@ -871,7 +871,7 @@
 		<path name="AOV" />
 		<ctl name="IN1R Mux" value="B" />
 		<ctl name="IN1R Digital Volume" value="142" />
-		<ctl name="IN1R Volume" value="16" />
+		<ctl name="IN1R Volume" value="18" />
 		<ctl name="ISRC2DEC4 Input 1" value="IN1R" />
 		<ctl name="SLIMTX1 Input 1" value="ISRC2DEC4" />
 	</path>
@@ -1050,8 +1050,8 @@
 		<ctl name="SLIM_0_TX Channels" value="Two" />
 		<ctl name="SLIMTX1 Input 1" value="ISRC2DEC2" />
 		<ctl name="SLIMTX2 Input 1" value="ISRC2DEC4" />
-		<ctl name="IN2L Volume" value="12" />
-		<ctl name="IN2R Volume" value="12" />
+		<ctl name="IN2L Volume" value="14" />
+		<ctl name="IN2R Volume" value="14" />
 	</path>
 
 	<path name="three-mic">
