@@ -11,6 +11,9 @@ persist.vendor.audio.calfile4=/vendor/etc/acdbdata/Hdmi_cal.acdb
 persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Headset_cal.acdb
 persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb
 
+# Bluetooth
+bluetooth.device.default_name=Moto X4
+
 # Fluence
 persist.vendor.audio.dualmic.config=endfire
 persist.vendor.audio.fluence.audiorec=false
