@@ -17,7 +17,7 @@ bluetooth.device.default_name=Moto X4
 # Fluence
 persist.vendor.audio.dualmic.config=endfire
 persist.vendor.audio.fluence.audiorec=false
-persist.vendor.audio.fluence.speaker=true
+persist.vendor.audio.fluence.speaker=false
 persist.vendor.audio.fluence.voicecall=true
 persist.vendor.audio.fluence.voicecomm=true
 persist.vendor.audio.fluence.voicerec=false
