@@ -507,7 +507,7 @@ system/priv-app/MotCamera2/lib/arm64/libzxing-core.so
 -system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
 system/etc/permissions/com.motorola.motosignature.xml
 system/framework/com.motorola.motosignature.jar
-system/priv-app/MotCamera2/MotCamera2.apk;OVERRIDES=Camera2
+system/priv-app/MotCamera2/MotCamera2.apk;OVERRIDES=Aperture
 system/etc/permissions/privapp-permissions-com.motorola.camera2.xml
 
 # Display calib
