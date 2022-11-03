@@ -386,10 +386,10 @@ vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
 # Camera - Postprocessing
-vendor/lib/libdualcameraddm.so
-vendor/lib/libmm-qcamera.so
 vendor/lib/libS5k2l7Pdaf.so
 vendor/lib/libS5k2l7PdafCamif.so
+vendor/lib/libdualcameraddm.so
+vendor/lib/libmm-qcamera.so
 vendor/lib64/libdualcameraddm.so
 
 # Camera - Firmware
@@ -406,6 +406,14 @@ vendor/firmware/cpp_firmware_v1_6_0.fw
 vendor/firmware/cpp_firmware_v1_8_0.fw
 
 # Camera - JNI
+system/priv-app/MotCamera2/lib/arm64/libBulkSNPE.so
+system/priv-app/MotCamera2/lib/arm64/libDepthBokehEffect.so
+system/priv-app/MotCamera2/lib/arm64/libFNVfbEngineHAL.so
+system/priv-app/MotCamera2/lib/arm64/libMobileOcrEngine.so
+system/priv-app/MotCamera2/lib/arm64/libMotDoF.so
+system/priv-app/MotCamera2/lib/arm64/libPlatformValidatorShared.so
+system/priv-app/MotCamera2/lib/arm64/libSNPE.so
+system/priv-app/MotCamera2/lib/arm64/libSNPE_G.so
 system/priv-app/MotCamera2/lib/arm64/libalg-common.so
 system/priv-app/MotCamera2/lib/arm64/libarcsoft_agegender_estimation.so
 system/priv-app/MotCamera2/lib/arm64/libarcsoft_beautyshot.so
@@ -420,17 +428,14 @@ system/priv-app/MotCamera2/lib/arm64/libbg-postproc-jni.so
 system/priv-app/MotCamera2/lib/arm64/libbg-postproc.so
 system/priv-app/MotCamera2/lib/arm64/libbs-depth-rt.so
 system/priv-app/MotCamera2/lib/arm64/libbs-depth.so
-system/priv-app/MotCamera2/lib/arm64/libBulkSNPE.so
-system/priv-app/MotCamera2/lib/arm64/libcalculator_domains.so
-system/priv-app/MotCamera2/lib/arm64/libcalculator.so
-system/priv-app/MotCamera2/lib/arm64/libclearsight.so
-system/priv-app/MotCamera2/lib/arm64/libc++_shared.so
 system/priv-app/MotCamera2/lib/arm64/libc++.so
+system/priv-app/MotCamera2/lib/arm64/libc++_shared.so
+system/priv-app/MotCamera2/lib/arm64/libcalculator.so
+system/priv-app/MotCamera2/lib/arm64/libcalculator_domains.so
+system/priv-app/MotCamera2/lib/arm64/libclearsight.so
 system/priv-app/MotCamera2/lib/arm64/libcutils.so
-system/priv-app/MotCamera2/lib/arm64/libDepthBokehEffect.so
 system/priv-app/MotCamera2/lib/arm64/libdualcameraddm.so
 system/priv-app/MotCamera2/lib/arm64/libfn-beauty.so
-system/priv-app/MotCamera2/lib/arm64/libFNVfbEngineHAL.so
 system/priv-app/MotCamera2/lib/arm64/libfoundation.so
 system/priv-app/MotCamera2/lib/arm64/libfp-relighting-intf.so
 system/priv-app/MotCamera2/lib/arm64/libfp-relighting.so
@@ -444,7 +449,6 @@ system/priv-app/MotCamera2/lib/arm64/libmcf-base.so
 system/priv-app/MotCamera2/lib/arm64/libmcf-common.so
 system/priv-app/MotCamera2/lib/arm64/libmcf-jni.so
 system/priv-app/MotCamera2/lib/arm64/libmcf.so
-system/priv-app/MotCamera2/lib/arm64/libMobileOcrEngine.so
 system/priv-app/MotCamera2/lib/arm64/libmorpho_cinema_graph.so
 system/priv-app/MotCamera2/lib/arm64/libmorpho_defocusface.so
 system/priv-app/MotCamera2/lib/arm64/libmorpho_easy_hdr.so
@@ -453,17 +457,16 @@ system/priv-app/MotCamera2/lib/arm64/libmorpho_image_stabilizer4.so
 system/priv-app/MotCamera2/lib/arm64/libmorpho_panorama_gp3.so
 system/priv-app/MotCamera2/lib/arm64/libmorpho_sensor_fusion.so
 system/priv-app/MotCamera2/lib/arm64/libmorpho_super_resolution.so
-system/priv-app/MotCamera2/lib/arm64/libMotDoF.so
-system/priv-app/MotCamera2/lib/arm64/libmpbase.so
 system/priv-app/MotCamera2/lib/arm64/libmp-depth.so
-system/priv-app/MotCamera2/lib/arm64/libmp-dis.so
 system/priv-app/MotCamera2/lib/arm64/libmp-dis-v4.so
 system/priv-app/MotCamera2/lib/arm64/libmp-dis-v5.so
+system/priv-app/MotCamera2/lib/arm64/libmp-dis.so
 system/priv-app/MotCamera2/lib/arm64/libmp-hdr.so
 system/priv-app/MotCamera2/lib/arm64/libmp-refiner.so
 system/priv-app/MotCamera2/lib/arm64/libmp-superres.so
-system/priv-app/MotCamera2/lib/arm64/libmt-bestshot.so
+system/priv-app/MotCamera2/lib/arm64/libmpbase.so
 system/priv-app/MotCamera2/lib/arm64/libmt-bestshot-video.so
+system/priv-app/MotCamera2/lib/arm64/libmt-bestshot.so
 system/priv-app/MotCamera2/lib/arm64/libmt-bgFaceAnalysis.so
 system/priv-app/MotCamera2/lib/arm64/libmt-blur.so
 system/priv-app/MotCamera2/lib/arm64/libmt-composition.so
@@ -476,7 +479,6 @@ system/priv-app/MotCamera2/lib/arm64/libmt-motion.so
 system/priv-app/MotCamera2/lib/arm64/libmt-selectivecolor.so
 system/priv-app/MotCamera2/lib/arm64/libmt-watermark.so
 system/priv-app/MotCamera2/lib/arm64/libopenssh.so
-system/priv-app/MotCamera2/lib/arm64/libPlatformValidatorShared.so
 system/priv-app/MotCamera2/lib/arm64/libqc-clearsight-intf.so
 system/priv-app/MotCamera2/lib/arm64/libqc-clearsight.so
 system/priv-app/MotCamera2/lib/arm64/libqc-depth-intf.so
@@ -485,15 +487,13 @@ system/priv-app/MotCamera2/lib/arm64/libqc-facedetect.so
 system/priv-app/MotCamera2/lib/arm64/libqc-focus-intf.so
 system/priv-app/MotCamera2/lib/arm64/libqc-focus.so
 system/priv-app/MotCamera2/lib/arm64/libqc-snpe.so
-system/priv-app/MotCamera2/lib/arm64/libremosaiclib.so
 system/priv-app/MotCamera2/lib/arm64/libremosaic_wrapper.so
+system/priv-app/MotCamera2/lib/arm64/libremosaiclib.so
 system/priv-app/MotCamera2/lib/arm64/libsnpe_adsp.so
 system/priv-app/MotCamera2/lib/arm64/libsnpe_dsp_domains.so
 system/priv-app/MotCamera2/lib/arm64/libsnpe_dsp_domains_system.so
 system/priv-app/MotCamera2/lib/arm64/libsnpe_dsp_domains_v2.so
 system/priv-app/MotCamera2/lib/arm64/libsnpe_dsp_domains_v2_system.so
-system/priv-app/MotCamera2/lib/arm64/libSNPE_G.so
-system/priv-app/MotCamera2/lib/arm64/libSNPE.so
 system/priv-app/MotCamera2/lib/arm64/libss-aicamera.so
 system/priv-app/MotCamera2/lib/arm64/libsymphony-cpu.so
 system/priv-app/MotCamera2/lib/arm64/libsymphonypower.so
@@ -506,9 +506,9 @@ system/priv-app/MotCamera2/lib/arm64/libzxing-core.so
 # Camera - MotCam2
 -system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
 system/etc/permissions/com.motorola.motosignature.xml
+system/etc/permissions/privapp-permissions-com.motorola.camera2.xml
 system/framework/com.motorola.motosignature.jar
 system/priv-app/MotCamera2/MotCamera2.apk;OVERRIDES=Aperture
-system/etc/permissions/privapp-permissions-com.motorola.camera2.xml
 
 # Display calib
 vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml
@@ -516,17 +516,17 @@ vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_520.xml
 
 # DRM
 vendor/bin/qseecomd
+vendor/lib/libQSEEComAPI.so
 vendor/lib/libcppf.so
 vendor/lib/liboemcrypto.so
-vendor/lib/libQSEEComAPI.so
-vendor/lib64/libdrmfs.so
-vendor/lib64/libdrmtime.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libqisl.so
 vendor/lib64/libQSEEComAPI.so
-vendor/lib64/librpmb.so
 vendor/lib64/libSecureUILib.so
+vendor/lib64/libdrmfs.so
+vendor/lib64/libdrmtime.so
+vendor/lib64/libqisl.so
+vendor/lib64/librpmb.so
 vendor/lib64/libssd.so
 
 # Fingerprint
