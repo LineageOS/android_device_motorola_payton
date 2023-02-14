@@ -49,11 +49,7 @@ PRODUCT_PACKAGES += \
     bootctrl.sdm660.recovery
 
 # TWRP
-ifeq ($(WITH_TWRP),true)
-    $(call inherit-product, device/motorola/payton/twrp/twrp.mk)
-else
-    TARGET_RECOVERY_FSTAB := device/motorola/msm8998-common/rootdir/etc/fstab.qcom
-endif
+TARGET_RECOVERY_FSTAB := device/motorola/msm8998-common/rootdir/etc/fstab.qcom
 
 # Device identifiers
 PRODUCT_DEVICE := payton
