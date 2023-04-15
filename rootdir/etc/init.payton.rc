@@ -31,3 +31,6 @@ on post-fs
 
 on post-fs-data
     mkdir /data/.fps 0770 system system
+
+on moto-charger
+    setprop ro.board.platform sdm660
