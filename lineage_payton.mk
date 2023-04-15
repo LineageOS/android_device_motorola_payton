@@ -53,7 +53,7 @@ PRODUCT_PACKAGES += \
 ifeq ($(WITH_TWRP),true)
     $(call inherit-product, device/motorola/payton/twrp/twrp.mk)
 else
-    TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
+    TARGET_RECOVERY_FSTAB := device/motorola/msm8998-common/rootdir/etc/fstab.qcom
 endif
 
 # Device identifiers

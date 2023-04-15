@@ -74,7 +74,7 @@ PRODUCT_PACKAGES += \
 
 # Lineage hardware
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.sdm660
+    vendor.lineage.touch@1.0-service.msm8998
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -117,5 +117,6 @@ PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/c0c4000.sdhci/by-name
 PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/soc/c0c4000.sdhci/by-name/oem
 $(call inherit-product, build/target/product/verity.mk)
 
-# Inherit from motorola sdm660-common
-$(call inherit-product, device/motorola/sdm660-common/common.mk)
+# Inherit from motorola msm8998-common
+TARGET_MOTO_PLATFORM := sdm660
+$(call inherit-product, device/motorola/msm8998-common/common.mk)

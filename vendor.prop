@@ -10,9 +10,16 @@ persist.vendor.audio.calfile3=/vendor/etc/acdbdata/Handset_cal.acdb
 persist.vendor.audio.calfile4=/vendor/etc/acdbdata/Hdmi_cal.acdb
 persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Headset_cal.acdb
 persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb
+vendor.audio.feature.fm.enable=true
+vendor.audio.feature.incall_music.enable=false
+vendor.audio.offload.gapless.enabled=false
+vendor.voice.path.for.pcm.voip=false
 
 # Bluetooth
 bluetooth.device.default_name=Moto X4
+
+# Display
+ro.hardware.vulkan=sdm660
 
 # Fluence
 persist.vendor.audio.dualmic.config=endfire
@@ -40,3 +47,6 @@ ro.vendor.sensors.pmd=false
 ro.vendor.sensors.rmd=false
 ro.vendor.sensors.scrn_ortn=false
 ro.vendor.sensors.sta_detect=true
+
+# SOC
+ro.soc.model=SDM660
