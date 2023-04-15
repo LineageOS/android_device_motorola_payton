@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_device_motorola_sdm660-common",
-    "target_path": "device/motorola/sdm660-common"
+    "repository": "android_device_motorola_msm8998-common",
+    "target_path": "device/motorola/msm8998-common"
   }
 ]
