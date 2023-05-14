@@ -48,9 +48,6 @@ PRODUCT_PACKAGES += \
     bootctrl.sdm660 \
     bootctrl.sdm660.recovery
 
-# TWRP
-TARGET_RECOVERY_FSTAB := device/motorola/msm8998-common/rootdir/etc/fstab.qcom
-
 # Device identifiers
 PRODUCT_DEVICE := payton
 PRODUCT_NAME := lineage_payton
