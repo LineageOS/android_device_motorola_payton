@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "82830d39_ae1e9925",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2023-05-23T03:36:05Z",
+      "side": 1,
+      "message": "confirmed works with the msm8998-common matching commit. I posted comments there",
+      "revId": "496c2cee5177083af08a4cb41e41c10d2391dfa4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
