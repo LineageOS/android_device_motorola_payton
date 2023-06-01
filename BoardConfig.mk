@@ -23,14 +23,6 @@ include device/motorola/msm8998-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/motorola/payton
 
-# A/B updater
-AB_OTA_UPDATER := true
-
-AB_OTA_PARTITIONS += \
-    boot \
-    system \
-    vendor
-
 # Assertions
 TARGET_BOARD_INFO_FILE := device/motorola/payton/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := payton
