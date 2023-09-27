@@ -114,6 +114,8 @@ PRODUCT_COPY_FILES += \
 
 # VNDK
 PRODUCT_SHIPPING_API_LEVEL := 25
+PRODUCT_COPY_FILES += \
+    prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase-v32.so
 
 # Inherit from motorola msm8998-common
 TARGET_MOTO_PLATFORM := sdm660
