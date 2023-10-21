@@ -24,6 +24,10 @@ function blob_fixup() {
         vendor/lib64/com.fingerprints.extension@1.0_vendor.so)
             "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
             ;;
+        # Update libstdc++.vendor target name
+        vendor/lib/libmmcamera_hdr_gb_lib.so | vendor/lib/libdualcameraddm.so | vendor/lib/libvideobokeh.so | vendor/lib64/libdualcameraddm.so | vendor/lib64/libvideobokeh.so)
+            "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
+            ;;
     esac
 }
 
