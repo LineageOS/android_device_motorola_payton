@@ -95,10 +95,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MotoPocketMode
 
-# Recovery
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/init.recovery.payton.rc:root/init.recovery.payton.rc
-
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
