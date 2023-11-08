@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1b204acf_dbf556e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2023-11-08T19:38:33Z",
+      "side": 1,
+      "message": "This patch breaks flashing new ROMs using Lineageos recovery:\n```\n[   61.060283] source_slot: B\n[   61.060286] target_slot: A\n[...]\n[   61.239482] update_engine_sideload E 05-02 23:23:08   611   611] [ERROR:dynamic_partition_control_android.cc(1176)] Device file /dev/block/bootdevice/by-name/vendor_a does not exist.\n```",
+      "revId": "529b57803bbce4cbf586fd8d9c83c906d0909aed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
