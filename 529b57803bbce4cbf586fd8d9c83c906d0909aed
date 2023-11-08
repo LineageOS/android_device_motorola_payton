@@ -50,6 +50,24 @@
       "message": "pretty sure theyre unneeded",
       "revId": "529b57803bbce4cbf586fd8d9c83c906d0909aed",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d28742f_8b197165",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-11-08T22:59:32Z",
+      "side": 1,
+      "message": "so, not sure what you\u0027re going for here - the symlinks are needed as the block still enums are oem.\n\nIt may be mounted at /vendor, but update engine ain\u0027t smart, and writes directly to /dev/block/$whatever.\n\nYou still need the symlinks in both OS and recovery for each\u0027s respective udpate_engine/update_engine_sideload - I just don\u0027t see us being able to do away with either of these.",
+      "parentUuid": "14967451_5bd04477",
+      "revId": "529b57803bbce4cbf586fd8d9c83c906d0909aed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
