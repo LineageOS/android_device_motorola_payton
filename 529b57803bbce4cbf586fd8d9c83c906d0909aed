@@ -68,6 +68,23 @@
       "parentUuid": "14967451_5bd04477",
       "revId": "529b57803bbce4cbf586fd8d9c83c906d0909aed",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27be3649_649e764b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2023-11-09T15:28:36Z",
+      "side": 1,
+      "message": "i did think we could at least remove the non-recovery symlinks, but didnt look into updater, so ... yeah maybe not :)",
+      "revId": "529b57803bbce4cbf586fd8d9c83c906d0909aed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
