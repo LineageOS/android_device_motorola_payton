@@ -64,7 +64,6 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    fstab.qcom.oem \
     init.payton.rc
 
 # Keymaster HAL
