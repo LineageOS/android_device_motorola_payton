@@ -1,6 +1,7 @@
-# payton device proprietary files - from XT1900-1_PAYTON_FI_9.0_PPWS29.69-39-6-13, unless pinned
+## All proprietary files from this list, unless pinned and noted otherwise,
+## are from payton (Fi) (PPWS29.69-39-6-13).
 
-# Audio ACDB
+# Audio - ACDB
 system/etc/acdbdata/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb
 system/etc/acdbdata/General_cal.acdb:vendor/etc/acdbdata/General_cal.acdb
 system/etc/acdbdata/Global_cal.acdb:vendor/etc/acdbdata/Global_cal.acdb
@@ -259,6 +260,19 @@ vendor/lib/libchromatix_s5k2l7sa_preview.so
 vendor/lib/libchromatix_s5k2l7sa_snapshot.so
 vendor/lib/libchromatix_s5k2l7sa_video_4k.so
 
+# Camera - Firmware
+vendor/firmware/cpp_firmware_v1_10_0.fw
+vendor/firmware/cpp_firmware_v1_12_0.fw
+vendor/firmware/cpp_firmware_v1_1_1.fw
+vendor/firmware/cpp_firmware_v1_1_6.fw
+vendor/firmware/cpp_firmware_v1_2_0.fw
+vendor/firmware/cpp_firmware_v1_4_0.fw
+vendor/firmware/cpp_firmware_v1_5_0.fw
+vendor/firmware/cpp_firmware_v1_5_1.fw
+vendor/firmware/cpp_firmware_v1_5_2.fw
+vendor/firmware/cpp_firmware_v1_6_0.fw
+vendor/firmware/cpp_firmware_v1_8_0.fw
+
 # Camera - mmcamera
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
@@ -385,27 +399,14 @@ vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
-# Camera - Postprocessing
-vendor/lib/libS5k2l7Pdaf.so
-vendor/lib/libS5k2l7PdafCamif.so
-vendor/lib/libdualcameraddm.so
-vendor/lib/libmm-qcamera.so
-vendor/lib64/libdualcameraddm.so
+# Camera - MotCamera2
+-system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
+system/etc/permissions/com.motorola.motosignature.xml
+system/etc/permissions/privapp-permissions-com.motorola.camera2.xml
+system/framework/com.motorola.motosignature.jar
+system/priv-app/MotCamera2/MotCamera2.apk;OVERRIDES=Aperture
 
-# Camera - Firmware
-vendor/firmware/cpp_firmware_v1_10_0.fw
-vendor/firmware/cpp_firmware_v1_12_0.fw
-vendor/firmware/cpp_firmware_v1_1_1.fw
-vendor/firmware/cpp_firmware_v1_1_6.fw
-vendor/firmware/cpp_firmware_v1_2_0.fw
-vendor/firmware/cpp_firmware_v1_4_0.fw
-vendor/firmware/cpp_firmware_v1_5_0.fw
-vendor/firmware/cpp_firmware_v1_5_1.fw
-vendor/firmware/cpp_firmware_v1_5_2.fw
-vendor/firmware/cpp_firmware_v1_6_0.fw
-vendor/firmware/cpp_firmware_v1_8_0.fw
-
-# Camera - JNI
+# Camera - MotCamera2 (JNI)
 system/priv-app/MotCamera2/lib/arm64/libBulkSNPE.so
 system/priv-app/MotCamera2/lib/arm64/libDepthBokehEffect.so
 system/priv-app/MotCamera2/lib/arm64/libFNVfbEngineHAL.so
@@ -503,14 +504,14 @@ system/priv-app/MotCamera2/lib/arm64/libyuv.so
 system/priv-app/MotCamera2/lib/arm64/libzx-barcode.so
 system/priv-app/MotCamera2/lib/arm64/libzxing-core.so
 
-# Camera - MotCam2
--system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
-system/etc/permissions/com.motorola.motosignature.xml
-system/etc/permissions/privapp-permissions-com.motorola.camera2.xml
-system/framework/com.motorola.motosignature.jar
-system/priv-app/MotCamera2/MotCamera2.apk;OVERRIDES=Aperture
+# Camera - Postprocessing
+vendor/lib/libS5k2l7Pdaf.so
+vendor/lib/libS5k2l7PdafCamif.so
+vendor/lib/libdualcameraddm.so
+vendor/lib/libmm-qcamera.so
+vendor/lib64/libdualcameraddm.so
 
-# Display calib
+# Display Calibrations
 vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_520.xml
 
@@ -548,6 +549,6 @@ vendor/lib64/hw/keystore.sdm660.so
 # NFC
 vendor/lib64/libpn553_fw.so:vendor/lib/libpn553_fw.so
 
-# Sensors - from motorola/lake_retail/lake:10/QPWS30.61-21-18-7/fac4a:user/release-keys
+# Sensors - from lake_retail (QPWS30.61-21-18-7-12)
 vendor/lib/sensors.ssc.so|8d311851599fd687fff7ba3a13faecd87a04b4e7
 vendor/lib64/sensors.ssc.so|d3471c08181b097b92d35683d260e38358d7a13a
