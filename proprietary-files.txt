@@ -385,12 +385,21 @@ vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
+<<<<<<< HEAD   (929290 Revert "payton: gpt-utils: dto -> dtbo")
 # Camera - Postprocessing
 vendor/lib/libS5k2l7Pdaf.so
 vendor/lib/libS5k2l7PdafCamif.so
 vendor/lib/libdualcameraddm.so
 vendor/lib/libmm-qcamera.so
 vendor/lib64/libdualcameraddm.so
+=======
+# Camera - MotCamera2
+-system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
+system/etc/permissions/com.motorola.motosignature.xml
+system/etc/permissions/privapp-permissions-com.motorola.camera2.xml
+system/framework/com.motorola.motosignature.jar
+system/priv-app/MotCamera2/MotCamera2.apk
+>>>>>>> CHANGE (3dde1e payton: Don't override Aperture)
 
 # Camera - Firmware
 vendor/firmware/cpp_firmware_v1_10_0.fw
