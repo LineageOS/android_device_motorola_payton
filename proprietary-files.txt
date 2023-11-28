@@ -508,7 +508,7 @@ system/priv-app/MotCamera2/lib/arm64/libzxing-core.so
 system/etc/permissions/com.motorola.motosignature.xml
 system/etc/permissions/privapp-permissions-com.motorola.camera2.xml
 system/framework/com.motorola.motosignature.jar
-system/priv-app/MotCamera2/MotCamera2.apk;OVERRIDES=Aperture
+system/priv-app/MotCamera2/MotCamera2.apk
 
 # Display calib
 vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml
