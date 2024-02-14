@@ -18,7 +18,9 @@
 $(call inherit-product, vendor/motorola/payton/payton-vendor.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
 
 # A/B updater
 AB_OTA_POSTINSTALL_CONFIG += \
