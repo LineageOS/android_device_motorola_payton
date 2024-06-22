@@ -59,5 +59,8 @@ TARGET_HAS_NO_WLAN_STATS := true
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # inherit from the proprietary version
 include vendor/motorola/payton/BoardConfigVendor.mk
