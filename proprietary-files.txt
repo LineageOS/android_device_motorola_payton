@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from payton (Fi) (PPWS29.69-39-6-13).
+## are from payton (RETAIL) (PPW29.69-40-4).
 
 # Audio - ACDB
 system/etc/acdbdata/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb
