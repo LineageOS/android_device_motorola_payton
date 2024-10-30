@@ -27,6 +27,6 @@
     <dimen name="fingerprint_dot_radius">5dp</dimen>
     <item name="fingerprint_sensor_location_fraction_y" type="fraction">95%</item>
 
-    <integer name="config_is_front_facing_fps">true</integer>
+    <bool name="config_is_front_facing_fps">true</bool>
 
 </resources>
