@@ -1,6 +1,9 @@
 soong_namespace {
+<<<<<<< PATCH SET (3cdace payton: switch to common QCOM AIDL bootctrl HAL)
+=======
     imports: [
         "hardware/qcom/bootctrl",
         "vendor/motorola/payton",
     ],
+>>>>>>> BASE      (d33786 payton: Implement ELF checks & swap to python extract)
 }
