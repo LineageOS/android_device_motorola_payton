@@ -141,4 +141,5 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Inherit from motorola msm8998-common
 TARGET_MOTO_PLATFORM := sdm660
+TARGET_USES_OEM_AS_VENDOR := true
 $(call inherit-product, device/motorola/msm8998-common/common.mk)
