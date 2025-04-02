@@ -42,7 +42,7 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('com.fingerprints.extension@1.0_vendor.so', 'com.fingerprints.extension@1.0.so'),
     'vendor/bin/charge_only_mode': blob_fixup()
         .add_needed('libmemset_shim.so'),
-    'vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc': blob_fixup()
+    'vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-payton.rc': blob_fixup()
         .regex_replace('system input', 'system uhid input'),
     (
         'vendor/lib/libdualcameraddm.so',
