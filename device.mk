@@ -52,8 +52,8 @@ TARGET_SCREEN_WIDTH := 1080
 # Boot control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
-    bootctrl.sdm660 \
-    bootctrl.sdm660.recovery
+    bootctrl.qcom \
+    bootctrl.qcom.recovery
 
 # Dex-pre-opt exclusions
 $(call add-product-dex-preopt-module-config,MotoSignatureApp,disable)
