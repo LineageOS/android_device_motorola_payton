@@ -16,7 +16,7 @@
 
 
 cc_library {
-    name: "libgptutils.motorola_sdm660",
+    name: "libgptutils.payton",
     vendor: true,
     recovery_available: true,
     shared_libs: [
