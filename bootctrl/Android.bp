@@ -14,8 +14,40 @@
 // limitations under the License.
 //
 
+filegroup {
+    name: "bootctrl_hal_src",
+    srcs: [
+        "boot_control.cpp",
+    ],
+}
+
+cc_defaults {
+    name: "bootctrl_hal_defaults",
+    proprietary: true,
+    recovery_available: true,
+    header_libs: [
+        "libhardware_headers",
+        "libsystem_headers",
+    ],
+    shared_libs: [
+        "libcutils",
+        "liblog",
+        "libz",
+    ],
+    owner: "qti",
+    relative_install_path: "hw",
+    cflags: [
+        "-Wall",
+        "-Werror",
+    ],
+    srcs: [
+        ":bootctrl_hal_src",
+    ],
+
+}
+
 cc_library {
-    name: "bootctrl.sdm660",
+    name: "bootctrl.qcom",
     defaults: ["bootctrl_hal_defaults"],
-    static_libs: ["libgptutils.motorola_sdm660"],
+    static_libs: ["libgptutils.payton"],
 }
