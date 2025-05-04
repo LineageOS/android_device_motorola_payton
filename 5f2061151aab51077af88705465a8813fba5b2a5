@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ecfd713_15e32b42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-05-04T22:18:22Z",
+      "side": 1,
+      "message": "Fixes MotCamera2 as removing the jni libs with the elf checks broke it",
+      "revId": "5f2061151aab51077af88705465a8813fba5b2a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
