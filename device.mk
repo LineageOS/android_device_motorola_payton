@@ -67,11 +67,7 @@ PRODUCT_COPY_FILES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio
-
-PRODUCT_BOOT_JARS += qcom.fmradio
+    FM2
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
