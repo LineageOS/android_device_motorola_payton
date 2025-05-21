@@ -42,8 +42,5 @@ ro.vendor.sensors.rmd=false
 ro.vendor.sensors.scrn_ortn=false
 ro.vendor.sensors.sta_detect=true
 
-# SKU
-ro.boot.product.hardware.sku=qcril
-
 # SOC
 ro.soc.model=SDM660
